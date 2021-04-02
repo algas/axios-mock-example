@@ -1,0 +1,19 @@
+{
+  "name": "axios-mock-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "axios",
+    "mock",
+    "test"
+  ],
+  "author": "Masahiro Yamauchi",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
