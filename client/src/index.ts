@@ -1,8 +1,9 @@
 import axios from 'axios';
 const httpAdapter = require('axios/lib/adapters/http');
 
+axios.defaults.adapter = httpAdapter;
+
 const getUser = async (host: string, userName: string) => {
-  axios.defaults.adapter = httpAdapter;
   return await axios.get(`${host}/user/${userName}`);
 }
 
